@@ -1,0 +1,25 @@
+.logo {
+    height: 5%;
+    width: 5%;
+    opacity: 85%;
+    margin-right: 20%;
+    margin-left: 3%;
+}
+
+.header {
+    color: #505050;;
+    font-size: 30px;
+    background-color:aqua;
+    display: flex;
+}
+
+.pictures-menu {
+    background-color: #18336a66;
+    display: flex;
+}
+
+#pictures-menu div {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}

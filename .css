@@ -1,0 +1,9 @@
+.hor {
+    display: grid; /* Включаем грид-контейнер */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Автоматически создаем столбцы */
+    gap: 10px; /* Промежутки между элементами */
+}
+
+text-align: center;
+padding: 3%;
+font-size: 50px;
