@@ -1,4 +1,7 @@
 .text {
-    color: #0004ffb3;
-    font-weight: bold;
+    color: rgb(50, 147, 168);
+}
+
+.main {
+    background-color:darkslategray;
 }
