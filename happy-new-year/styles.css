@@ -73,3 +73,18 @@ body {
     /* align-items: center; */
     /* justify-content: center; */
 }
+
+
+.countdown {
+    text-align: center;
+    margin-top: 20px;
+    color: #BBB;
+    font-weight: bold;
+    font-family: "Great Vibes", cursive;
+}
+
+#countdown {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+}

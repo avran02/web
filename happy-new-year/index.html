@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./snowfall.css">
     <link rel="stylesheet" href="./tree.css">
     <link rel="stylesheet" href="./garland.css">
+    <link href="./timer.js">
     </head>
 
 <body>
@@ -94,12 +95,11 @@
         <div class="garland-line"></div>
     </div>
 
-    <script>
-        let timer = document.createElement('div');
-        timer.classList.add('timer');
-        timer.innerHTML = '00:00:00';
-        document.body.appendChild(timer);
-    </script>
+    <div class="countdown">
+        <h2>До Нового года осталось:</h2>
+        <div id="countdown">Загрузка...</div>
+    </div>
+    <script src="./timer.js"></script>
 </body>
 
 </html>
