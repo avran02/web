@@ -4,29 +4,104 @@
     background-color: #333;
 }
 
-.treangle {
+.ball {
     position: absolute;
     width: 1rem;
     height: 1rem;
-    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.ball:nth-child(1) {
+    left: 53%;
+    top: 33vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(2) {
+    left: 52%;
+    top: 34vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(3) {
+    left: 51%;
+    top: 40vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(4) {
+    left: 49%;
+    top: 47vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(5) {
+    left: 52%;
+    top: 31vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(6) {
+    left: 51.7%;
+    top: 28vh;
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+}
+
+.ball:nth-child(7) {
+    left: 51.7%;
+    top: 49.9vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(8) {
+    left: 52.3%;
+    top: 46.3vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(9) {
+    left: 50.6%;
+    top: 48vh;
+    background-color: darkgreen;
+}
+
+.ball:nth-child(10) {
+    left: 53%;
+    top: 38vh;
+    background-color: darkgreen;
+}
+
+.treangle {
+    position: absolute;
+    width: 0;
+    left: 48%;
+    height: 0;
+    border-bottom: 10rem solid rgb(236, 142, 130);
+    border-left: 4rem solid transparent;
+    border-right: 4rem solid transparent;
 }
 
 .treangle:nth-child(1){
     top: 20vh;
-    left: 50%;
 }
 
 .treangle:nth-child(2){
     top: 25vh;
-    left: 50%;
 }
 
 .treangle:nth-child(3){
     top: 30vh;
-    left: 50%;
 }
 
 .treangle:nth-child(4){
     top: 35vh;
-    left: 50%;
+}
+
+.log {
+    position: absolute;
+    left: 50.5%;
+    top: 52.6vh;
+    width: 2%;
+    height: 4%;
+    background-color: rgba(165, 42, 42, 0.633);
 }
